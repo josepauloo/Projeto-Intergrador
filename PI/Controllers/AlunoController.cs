@@ -16,6 +16,7 @@ namespace PI.Controllers
         }
         public IActionResult Index()
         {
+            ViewBag.OpcaoMenu = 2;
             var aluno = _alunoRepositorio.BuscarAlunos();
             return View(aluno);
         }

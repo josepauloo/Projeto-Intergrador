@@ -15,6 +15,7 @@ namespace PI.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.OpcaoMenu = 1;
             return View();
         }
 

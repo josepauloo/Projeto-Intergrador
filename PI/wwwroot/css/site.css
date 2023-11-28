@@ -16,3 +16,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*MODIFICAÇÕES*/
+
+nav {
+    background-color: dodgerblue;
+}
+
+.nav-link a {
+    color:white;
+}
+.nav-link:hover, .nav-link:focus {
+    color: whitesmoke !important;
+    background-color: aqua !important;
+}
+.active {
+    color: deepskyblue !important;
+    border-bottom: 5px solid blue;
+}
+
