@@ -19,7 +19,7 @@ body {
 
 /*MODIFICAÇÕES*/
 
-nav {
+.nav-cor {
     background-color: dodgerblue;
 }
 
@@ -34,4 +34,9 @@ nav {
     color: deepskyblue !important;
     border-bottom: 5px solid blue;
 }
+
+
+
+/*CADASTRO SOCIO*/
+
 

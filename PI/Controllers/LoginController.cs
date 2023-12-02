@@ -18,6 +18,18 @@ namespace PI.Controllers
             return View();
         }
 
+        public IActionResult CadastroS()
+        {
+            return View();
+        }
+
+        public IActionResult RedefinirSenha()
+        {
+            return View();
+        }
+
+
+
         public IActionResult BuscarLogin(Login login)
         {
             //try
